@@ -2,4 +2,4 @@ name: Node Github CI
 
 steps:
   - run: npm install --registry=https://registry.npmmirror.com
-  - run: npm test
+  - run: npm run test
