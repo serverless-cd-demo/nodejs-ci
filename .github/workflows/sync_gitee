@@ -3,7 +3,7 @@ name: Gitee repos mirror periodic job
 on:
   push:
     branches:
-      - master
+      - main
       
 jobs:
   sync_gitee:
